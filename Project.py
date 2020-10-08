@@ -1,8 +1,8 @@
-#importing pygame module
 import pygame, sys
 from pygame.locals import *
 
 pygame.init()
+
 running = True
 window = pygame.display.set_mode((500, 500))
 white = [255,255,255]
@@ -32,4 +32,3 @@ while running == True:
             running = False
 
 
-#test change 2
